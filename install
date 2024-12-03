@@ -1,0 +1,10 @@
+# Frontend
+npx create-next-app@latest age-calculator --typescript --tailwind
+cd age-calculator
+npm install @shadcn/ui lucide-react
+
+# Backend
+mkdir age-calculator-backend
+cd age-calculator-backend
+npm init -y
+npm install express cors jsonwebtoken bcryptjs lowdb
